@@ -56,7 +56,7 @@ while True:
         if 570 <= ball_pos[1] <= 580 and player_paddle_pos[0] <= ball_pos[0] <= player_paddle_pos[0] + 50:
             ball_vel[1] = -ball_vel[1]
         if 20 <= ball_pos[1] <= 30 and computer_paddle_pos[0] <= ball_pos[0] <= computer_paddle_pos[0] + 50:
-            ball_vel[1]# Assistant will continue from the previous message
+            ball_vel[1]
             ball_vel[1] = -ball_vel[1]
 
         # Omezení pohybu páleček
